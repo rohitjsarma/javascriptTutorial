@@ -1,0 +1,21 @@
+#demo div{
+    padding: 3em;
+    background: #00abfd;
+    margin: .5em;
+    border-radius: 10px;
+    color: red;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+#demo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}

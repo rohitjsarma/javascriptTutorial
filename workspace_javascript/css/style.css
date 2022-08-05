@@ -1,0 +1,14 @@
+
+body{
+    font-family: "Comic Sans MS";
+    margin: 0;
+}
+nav{
+    background-color: coral;
+    padding: 20px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}

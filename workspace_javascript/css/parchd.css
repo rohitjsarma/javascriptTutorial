@@ -1,0 +1,45 @@
+#outer{
+    width: 800px;
+    height: 400px;
+    background: green;
+    border: 1 px solid ;
+
+}
+#inner{
+    width: 700px;
+    height: 350px;
+    background: #00abfd;
+    border: 1 px solid ;
+    margin-left: 20px;
+    padding: 10px;
+}
+span{
+    height: 50px;
+    width: 50px;
+    border: 2px solid;
+    margin: 20px;
+    padding: 20px;
+}
+span{
+    text-align: center;
+
+}
+.a{
+    position: relative;
+    float: right;
+
+}
+.b{
+
+    float: left;
+}
+.c{
+    float: right;
+}
+.d{
+    float: right;
+}
+.e{
+    position: fixed;
+    bottom: 175px;
+}

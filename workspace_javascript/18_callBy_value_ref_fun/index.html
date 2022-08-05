@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calling function </title>
+    <link rel="stylesheet" href="../css/onclickform.css">
+
+</head>
+<body>
+
+<h1>Call by value </h1>
+<h2>When a variable is passed as a parameter to a function, if any changes are made
+    to the parameter, the original variable will remain unaffected. This is known
+    as call by value and this is true for all values having a primitive data type.</h2>
+<b>let original=10;<br/>
+    function updateOriginal(originalVal){<br/>
+    originalVal +=10;<br/>
+    console.log(originalVal);<br/>
+    }
+    updateOriginal(original);<br/>
+    console.log(original);</b>
+<h1>Call by reference</h1>
+<h2>When a variable’s reference(address) and not its value is passed to a function’s parameter,
+    any changes made to the parameter will update the original variable reference.
+    This is known as call by reference and this is true for all values having a non-primitive data type</h2>
+<b>
+    let myObj={<br/>
+    value:10<br/>
+    }<br/>
+    function updateValue(objRef){<br/>
+    objRef.value=20;<br/>
+    }<br/>
+    updateValue(myObj);<br/>
+    console.log(myObj.value);
+</b>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="app.js"></script>
+
+
+</body>
+</html>
